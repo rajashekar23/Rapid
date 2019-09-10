@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { MaterialModule } from './material.module';
-
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
@@ -12,7 +11,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MaterialModule,
   ],
   declarations: [
-  ],
+ ],
   exports: [
     FormsModule,
     FlexLayoutModule,
